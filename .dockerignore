@@ -1,0 +1,30 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Git and IDE files
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+
+# Allow the example environment template
+!.env.example
+
+# Documentation and OS files
+*.md
+.DS_Store
+Thumbs.db
